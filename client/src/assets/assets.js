@@ -69,6 +69,7 @@ import vanilla_muffins_image from "./vanilla_muffins_image.png";
 import quinoa_image from "./quinoa_image.png";
 import brown_rice_image from "./brown_rice_image.png";
 import barley_image from "./barley_image.png";
+import millets_image from "./millets_image.jpg.png";
 
 export const assets = {
   logo,
@@ -141,6 +142,11 @@ export const categories = [
     text: "Grains & Cereals",
     path: "Grains",
     image: grain_image,
+    bgColor: "#F1E3F9",
+  }, {
+    text: "Millets",
+    path: "Millets",
+    image: millets_image,
     bgColor: "#F1E3F9",
   },
 ];
